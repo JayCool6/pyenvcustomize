@@ -11,7 +11,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='pyenvcustomize',
-    version='0.0.1',
+    version='0.0.2',
     author='Jay',
     description='Automatically create or update sitecustomize.py in the Python environment',
     long_description=long_description,
