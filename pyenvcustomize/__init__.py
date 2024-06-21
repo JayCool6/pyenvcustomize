@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-# @File    ：sitecustomize.py
+# @File    ：__init__.py
 # @Author  ：Jay
-# @Date    ：2024/6/21 15:14 
+# @Date    ：2024/6/21 15:14
 # @Remark  ：Automatically create sitecustomize.py in the Python environment
 import os
 import sys
@@ -81,6 +81,7 @@ find_project_root(os.getcwd())
     return create_site_customize()
 
 
+__all__ = ["sitecustomize"]
 # If this script is executed directly, call the create_site_customize function
 if __name__ == "__main__":
     sitecustomize()
